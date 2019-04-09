@@ -13,5 +13,9 @@
         /// 抽象工厂模式
         /// </summary>
         AbstractFactoryPattern,
+        /// <summary>
+        /// 单例模式
+        /// </summary>
+        SingletonPattern,
     }
 }
