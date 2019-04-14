@@ -17,5 +17,9 @@
         /// 单例模式
         /// </summary>
         SingletonPattern,
+        /// <summary>
+        /// 建造者模式
+        /// </summary>
+        BuilderPattern,
     }
 }

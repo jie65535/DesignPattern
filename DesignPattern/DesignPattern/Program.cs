@@ -4,14 +4,6 @@ namespace DesignPattern
 {
     class Program
     {
-        /// <summary>
-        /// <example>
-        /// <code>
-        /// int a;
-        /// </code>
-        /// </example>
-        /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.WriteLine("Hello! I am Design Pattern Test Program!");
@@ -33,6 +25,9 @@ namespace DesignPattern
                         break;
                     case DesignPatternEnum.SingletonPattern:
                         SingletonPattern.SingletonPatternDemo.Run();
+                        break;
+                    case DesignPatternEnum.BuilderPattern:
+                        BuilderPattern.BuilderPatternDemo.Run();
                         break;
                     default:
                         Console.WriteLine("Input Error!");

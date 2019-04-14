@@ -3,3 +3,7 @@
 ################################################################################
 
 /DesignPattern/DesignPattern/bin/Debug/netcoreapp2.1
+/DesignPattern/DesignPattern/obj
+/DesignPattern/.vs/DesignPattern/v16
+/DesignPattern/.vs/DesignPattern/DesignTimeBuild
+/.vs
