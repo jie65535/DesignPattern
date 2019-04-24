@@ -2,9 +2,9 @@
 
 namespace DesignPattern.SingletonPattern
 {
-    class SingletonPatternDemo
+    class SingletonPatternDemo : IDesignPatternDemo
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine("I am Singleton Pattern!");
 

@@ -1,8 +1,8 @@
 ﻿namespace DesignPattern.AbstractFactoryPattern
 {
-    class AbstractFactionPatternDemo
+    class AbstractFactionPatternDemo : IDesignPatternDemo
     {
-        public static void Run()
+        public void Run()
         {
             System.Console.WriteLine("I am Abstract Faction Pattern");
 
