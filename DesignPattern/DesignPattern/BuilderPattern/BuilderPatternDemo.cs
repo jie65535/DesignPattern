@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPattern.BuilderPattern
 {
-    public class BuilderPatternDemo
+    public class BuilderPatternDemo : IDesignPatternDemo
     {
-        public static void Run()
+        public void Run()
         {
             MealBuilder mealBuilder = new MealBuilder();
 
