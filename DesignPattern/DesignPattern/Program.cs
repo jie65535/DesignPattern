@@ -15,6 +15,7 @@ namespace DesignPattern
             { DesignPatternEnum.SingletonPattern,       new SingletonPattern.SingletonPatternDemo()             },
             { DesignPatternEnum.BuilderPattern,         new BuilderPattern.BuilderPatternDemo()                 },
             { DesignPatternEnum.PrototypePattern,       new PrototypePattern.PrototypePatternDemo()             },
+            { DesignPatternEnum.AdapterPattern,         new AdapterPattern.AdapterPatternDemo()                 },
         };
 
         static void Main(string[] args)
@@ -47,6 +48,7 @@ namespace DesignPattern
             {
                 Console.WriteLine("Exception:{0}", ex.Message);
             }
+
         }
     }
 }
