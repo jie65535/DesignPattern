@@ -5,7 +5,7 @@ using System.Text;
 namespace DesignPattern.PrototypePattern
 {
     [Serializable]
-    public abstract class Shape : BaseClone<Shape>
+    abstract class Shape : BaseClone<Shape>
     {
         public string ID { set; get; }
 

@@ -25,9 +25,5 @@
         /// 原型模式
         /// </summary>
         PrototypePattern,
-        /// <summary>
-        /// 适配器模式
-        /// </summary>
-        AdapterPattern,
     }
 }

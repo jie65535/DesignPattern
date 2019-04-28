@@ -2,7 +2,7 @@
 
 namespace DesignPattern.PrototypePattern
 {
-    public class ShapeCache
+    class ShapeCache
     {
         private static Dictionary<string, Shape> _ShapeMap = new Dictionary<string, Shape>();
 

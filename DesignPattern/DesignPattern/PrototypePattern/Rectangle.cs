@@ -3,7 +3,7 @@
 namespace DesignPattern.PrototypePattern
 {
     [Serializable]
-    public class Rectangle : Shape
+    class Rectangle : Shape
     {
         public override string Type => "Rectangle";
 
