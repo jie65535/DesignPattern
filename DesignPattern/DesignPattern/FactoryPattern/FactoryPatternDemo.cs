@@ -2,9 +2,9 @@
 
 namespace DesignPattern.FactoryPattern
 {
-    public class FactoryPatternDemo
+    public class FactoryPatternDemo : IDesignPatternDemo
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine("I am Factory Pattern!");
             ShapeFactory shapeFactory = new ShapeFactory();
