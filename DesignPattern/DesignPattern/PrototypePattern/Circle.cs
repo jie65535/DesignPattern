@@ -3,7 +3,7 @@
 namespace DesignPattern.PrototypePattern
 {
     [Serializable]
-    class Circle : Shape
+    public class Circle : Shape
     {
         public override string Type => "Circle";
 
