@@ -29,5 +29,13 @@
         /// 适配器模式
         /// </summary>
         AdapterPattern,
+        /// <summary>
+        /// 桥接模式
+        /// </summary>
+        BridgePattern,
+        /// <summary>
+        /// 过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）
+        /// </summary>
+        FilterPattern,
     }
 }

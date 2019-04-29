@@ -21,6 +21,8 @@ namespace DesignPattern
             { DesignPatternEnum.BuilderPattern,         new BuilderPattern.BuilderPatternDemo()                 },
             { DesignPatternEnum.PrototypePattern,       new PrototypePattern.PrototypePatternDemo()             },
             { DesignPatternEnum.AdapterPattern,         new AdapterPattern.AdapterPatternDemo()                 },
+            { DesignPatternEnum.BridgePattern,          new BridgePattern.BridgePatternDemo()                   },
+            { DesignPatternEnum.FilterPattern,          new FilterPattern.FilterPatternDemo()                   },
         };
 
         static void Main(string[] args)
@@ -30,7 +32,7 @@ namespace DesignPattern
             // 使用反射将设计模式枚举条目包含序号遍历输出
             foreach (DesignPatternEnum item in Enum.GetValues(typeof(DesignPatternEnum)))
                 Console.WriteLine("{0:#0}:{1}", ((int)item), item);
-            Console.Write("please choose:");
+            Console.Write("Please choose:");
             // 获取用户输入
             var optStr = Console.ReadLine();
             try
